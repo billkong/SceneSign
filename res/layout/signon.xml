@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/app_bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/title_bg"
+        android:gravity="center_vertical"
+        android:text="@string/title"
+        android:textColor="#FFFAFA"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textPrompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_margin="40dp"
+        android:text="@string/pwd"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#c0000000"
+        android:gravity="center" >
+
+        <EditText
+            android:id="@+id/pwd01"
+            style="@style/my_pwd_edittext_style" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/pwd02"
+            style="@style/my_pwd_edittext_style" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/pwd03"
+            style="@style/my_pwd_edittext_style" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/pwd04"
+            style="@style/my_pwd_edittext_style" >
+        </EditText>
+    </LinearLayout>
+
+    <TableLayout
+        android:padding="2dp"
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btn01"
+                style="@style/my_button_style"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/btn02"
+                style="@style/my_button_style"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/btn03"
+                style="@style/my_button_style"
+                android:text="3" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btn04"
+                style="@style/my_button_style"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/btn05"
+                style="@style/my_button_style"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/btn06"
+                style="@style/my_button_style"
+                android:text="6" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btn07"
+                style="@style/my_button_style"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/btn08"
+                style="@style/my_button_style"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/btn09"
+                style="@style/my_button_style"
+                android:text="9" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btnReset"
+                style="@style/my_button_style"
+                android:text="重置" />
+
+            <Button
+                android:id="@+id/btn00"
+                style="@style/my_button_style"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/btnCleanInput"
+                style="@style/my_button_style"
+                android:text="清空" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

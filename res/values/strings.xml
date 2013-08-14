@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">现场签名系统</string>
+    <string name="title">现场签名系统</string>
+    <string name="title_bind">手机绑定</string>
+    <string name="num">  输入票据编号（后六位）</string>
+    <string name="ok">确定</string>
+    <string name="get">获取动态密码</string>
+    <string name="warning">动态密码10分钟内有效</string>
+    <string name="bind_text">提示 ：\n1.  手机号应与SIM卡一致且被允许\n2.  手机号码绑定后不可更改</string>
+    <string name="bind_button">点击绑定</string>
+    <string name="pwd">请输入密码</string>
+    <string name="edit_hint">点击输入手机号码</string>
+    <string name="new_pwd">重设密码</string>
+    <string name="forget_pwd">忘记密码</string>
+    <string name="edit_warnning_02">请再次输入手机号：</string>
+    <string name="edit_warnning_01">请输入手机号：</string>
+    
+    
+
+</resources>
